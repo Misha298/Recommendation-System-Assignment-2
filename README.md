@@ -4,6 +4,13 @@
 EDA: 
 
 This file contains the analysis of the data, information on the data, and how the data was distributed.
+--> Preprocessing of the Data
+    Some columns like nutritional values and ingredients are read as strings by python rather than list objects.
+
+    We will now convert ingredients to list objects so that we can use them as iterables while text processing.
+    We will convert nutritional values column to columns of nutritional values so that we can use them for comparision of different recipes nutritional values.
+    Coverting nutritional values column to columns of nutritional values
+
 
 Make_file_ready_to_process: (food-making-data-ready.ipynb)
 
