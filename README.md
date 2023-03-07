@@ -23,6 +23,9 @@ We have considered only those users who have given a rating to more than 40 item
 __Memory_based_collaborative:__
 
 In this file, we built a memory-based collaborative system to fill the missing values with the weighted average method. For weights, we assign their similarity as their weights and compute their ratings. After that, recipes with higher ratings are recommended to the user.
+In this we have 2 main types of memory-based collaborative filtering algorithms: User-Based and Item-Based. 
+In User-based we have subsampled our data to 50% while in item-based method we have subsampled our data to 5%. we did these because computation of similarity matrix on full data was not possible.
+we have also user some pre-processing to have only active users in our final model to train on.
 
 __Model_based_collaborative:__
 
