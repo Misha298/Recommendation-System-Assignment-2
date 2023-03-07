@@ -1,7 +1,7 @@
 # Recommendation-System-Assignment-2
 
 
-## __EDA_on_food_dataset__ 
+__EDA_on_food_dataset__ 
 
 This file contains the analysis of the data, information on the data, and how the data was distributed.</br>
 --> Preprocessing of the Data</br>
