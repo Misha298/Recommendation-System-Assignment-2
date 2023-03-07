@@ -5,7 +5,7 @@ EDA:
 
 This file contains the analysis of the data, information on the data, and how the data was distributed.
 
-Make_file_ready_to_process: 
+Make_file_ready_to_process: (food-making-data-ready.ipynb)
 
 We have considered only those users who have given a rating to more than 40 items. But some rating values are 0. For them, we counted the number of positive words and a number of negative words present in the review. According to them, we replace 0 with 2 - negative rating and 4 - positive rating values.
 
