@@ -16,7 +16,7 @@ removing duplicates</br>
 creating sparse matrix from data frame
 
 
-## __Make_file_ready_to_process: (food-making-data-ready.ipynb)__
+__Make_file_ready_to_process: (food-making-data-ready.ipynb)__
 
 We have considered only those users who have given a rating to more than 40 items. But some rating values are 0. For them, we counted the number of positive words and a number of negative words present in the review. According to them, we replace 0 with 2 - negative rating and 4 - positive rating values.
 
