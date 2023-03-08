@@ -20,7 +20,7 @@ __Make_file_ready_to_process: (food-making-data-ready.ipynb)__
 
 We have considered only those users who have given a rating to more than 40 items. But some rating values are 0. For them, we counted the number of positive words and a number of negative words present in the review. According to them, we replace 0 with 2 - negative rating and 4 - positive rating values.
 
-## __Memory_based_collaborative:__
+__Memory_based_collaborative:__
 
 In this file, we built a memory-based collaborative system to fill the missing values with the weighted average method. For weights, we assign their similarity as their weights and compute their ratings. After that, recipes with higher ratings are recommended to the user.
 In this we have 2 main types of memory-based collaborative filtering algorithms: User-Based and Item-Based. 
