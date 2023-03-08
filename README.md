@@ -27,6 +27,6 @@ In this we have 2 main types of memory-based collaborative filtering algorithms:
 In User-based we have subsampled our data to 50% while in item-based method we have subsampled our data to 5%. we did these because computation of similarity matrix on full data was not possible.
 we have also use some pre-processing to have only active users in our final datset for training.
 
-## __Model_based_collaborative:__
+__Model_based_collaborative:__
 
 In this, we built a model-based collaborative system with matrix factorization with an inbuilt method and from scratch. In the inbuilt method, we used the SVD method to decompose the matrix. For scratch, we randomly initialized the U and V matrix. With the gradient descent, we U*(V.T) as similar to the rating matrix and computed the rating matrix to suggest the recipes with the higher rating for a particular user to users.
